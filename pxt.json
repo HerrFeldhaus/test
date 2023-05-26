@@ -1,0 +1,26 @@
+{
+    "name": "Test",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "Grove": "github:calliope-edu/pxt-grove#v0.2.7",
+        "pxt-calliope-grovePCF85063tp": "github:CalliTGS3/pxt-calliope-grovePCF85063TP#8b83ee3c53bf55a70a51fd3abfa5a51d564c37f1",
+        "neopixel": "github:Microsoft/pxt-neopixel#v0.7.5"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "4.0.29",
+        "targetId": "calliopemini"
+    },
+    "supportedTargets": [
+        "calliopemini"
+    ],
+    "preferredEditor": "blocksprj"
+}
